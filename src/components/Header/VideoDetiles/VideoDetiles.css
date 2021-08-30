@@ -1,0 +1,19 @@
+.videoShow{
+    /* border: 1px solid rgb(24, 9, 9); */
+    flex: 0.8;
+    background-color:#f9f9f9;
+    padding: 40px 20px;
+    padding-bottom: 0;
+}
+
+.videoShow > h2{
+   margin-left: 5px;
+   margin-bottom: 20px;
+}
+.videoShow_videos{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-gap: 20px 5px;
+    overflow-x: hidden;
+   
+}
